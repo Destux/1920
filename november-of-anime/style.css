@@ -1,0 +1,143 @@
+body {
+	background-color: black;
+	color: white;
+	transition: all 1s ease;
+	font-family: 'Raleway', sans-serif;
+}
+
+.tabs {
+	display: none;
+	padding-left: 12rem;
+	padding-right: 12rem;
+}
+
+#tab1 {
+	display: block;
+}
+
+#container {
+	top: 5%;
+	left: 0;
+	align-content: center;
+	text-align: center;
+	padding-top: 50px;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.sidenav {
+	position: fixed;
+	/*top: 0;*/
+	left: 0;
+	height: 100%;
+	width: 100px;
+	z-index: 1;
+	overflow-x: hidden;
+	padding-left: 10 rem;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	color:  white;
+}
+
+.sidenav button {
+	color: white;
+	padding-bottom: 50px;
+}
+
+#themes button {
+	float: right;
+	margin-right: 2rem;
+}
+
+.dark {
+	background-color: black;
+	color: white;
+}
+
+.light {
+	background-color: whitesmoke;
+	color: black;
+}
+
+.monokai {
+	background-color: #272822;
+	color: #e2d7ac;
+}
+
+.strawberry {
+	background-color: pink;
+	color: #b16653;
+}
+
+.dark button {
+	color: white;
+}
+
+.light button {
+	color: black;
+}
+
+.monokai button {
+	color: #5899c4;
+}
+
+.strawberry button {
+	color: #a02929;
+}
+
+#destux-text {
+	width: 40;
+}
+
+#destux-D {
+	transform-origin: 15% 50%;
+}
+#destux-e {
+	transform-origin: 30% 50%;
+}
+#destux-s {
+	transform-origin: 45% 50%;
+}
+#destux-t {
+	transform-origin: 60% 50%;
+}
+#destux-u {
+	transform-origin: 75% 50%;
+}
+#destux-x {
+	transform-origin: 90% 50%;
+}
+
+/*.invisible {
+	visibility: hidden;
+}*/
+
+.playButtons {
+	display: block;
+	position: relative;
+	left: 45%;
+	padding-top: 5%;
+	/*top: 75%;*/
+	text-align: center;
+}
+
+#beer-bottle {
+	position: absolute;
+	top: 34px;
+	left: 30px;
+}
+
+/*#beer {
+	position: relative;
+	width: 813.69px;
+	height: 551.13px;
+}*/
